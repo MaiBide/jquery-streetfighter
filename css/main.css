@@ -1,0 +1,55 @@
+/** {
+  outline: red 2px solid;
+}*/
+
+
+body {
+  background-color: black;
+}
+.main {
+  background-color: white;
+  margin-top: 110px;/*distance from bottom of previous ele*/
+  padding-left: 100px;
+  min-width: 1200px;/*window is narrower than 1200px, they’ll have to scroll.*/
+  height: 500px;
+}
+/*ryu poses*/
+.ryu-ready, .ryu-still, .ryu-throwing {
+  width: 659px;
+  height: 494px;
+  /*display: inline-block;*/
+}
+
+.ryu-ready, .ryu-throwing {
+  display: none;
+} 
+
+.ryu-ready {
+  background-image: url('../images/ryu-ready-position.gif');
+  display: none;
+}
+
+.ryu-still {
+  background-image: url('../images/ryu-standing-still.png');
+  /*display: block;for testing; remove after*/
+}
+
+.ryu-throwing {
+  background-image: url('../images/ryu-throwing-hadouken.png');
+  display: none;/*for testing; remove after*/
+}
+/*if div is wider than imgs, don't allow img repetition*/
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+  background-repeat: no-repeat;
+}
+/*hadouken img*/
+.hadouken {
+  background-image: url('../images/hadouken.gif');
+  width: 156px; 
+  height: 90px;
+  /*display: block;for testing*/
+   position: relative;
+  top: 167px;/*-315px; should be 167px per Lesson*/
+  left: 661px;/*661px;should be -215*/
+  float: left;
+}
