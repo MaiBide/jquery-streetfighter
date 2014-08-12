@@ -36,7 +36,7 @@ body {
 
 .ryu-throwing {
   background-image: url('../images/ryu-throwing-hadouken.png');
-  display: none;/*for testing; remove after*/
+  /*display: none;for testing; remove after*/
 }
 /*if div is wider than imgs, don't allow img repetition*/
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
@@ -49,7 +49,8 @@ body {
   height: 90px;
   /*display: block;for testing*/
    position: relative;
-  top: 167px;/*-315px; should be 167px per Lesson*/
+  top: 167px;/*should be 167px per Lesson*/
   left: 661px;/*661px;should be -215*/
   float: left;
 }
+
