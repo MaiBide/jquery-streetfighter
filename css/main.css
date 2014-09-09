@@ -58,4 +58,19 @@ body {
   left: 661px;/*661px;should be -215*/
   float: left;
 }
+.ryu-still h6 {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+.instructions {
+  position: relative;
+  top: 50px;
+  left: 350px;
+}
+.ryuInstructions {
+  list-style-type: decimal;
+  text-indent:10px;
+  list-style-position: inside;
+}
 

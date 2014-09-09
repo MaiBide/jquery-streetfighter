@@ -32,7 +32,7 @@ $(document).ready(function() {
   $(this).keydown(function(event) {
   	//event.stopPropagation();
     if ( event.which == 88 ) {
-	    if ( $('.ryu-cool')!==true ){
+	    if ( $('.ryu-cool')!=true ){
 	    $('.ryu-still, .ryu-ready,.ryu-throwing').hide();
 	    $('.ryu-cool').show();};
 	    //alert("x key pressed");
@@ -48,6 +48,7 @@ $(document).ready(function() {
 	    $('.ryu-still').show();};
 	};
   });
+
 
  });/**/
 function playHadouken () {
