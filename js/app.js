@@ -15,7 +15,7 @@ $(document).ready(function() {
     $('.ryu-throwing').show();
     $('.hadouken').show();
     // animate hadouken to the right of the screen
-    playHadouken();
+    ();
     $('.ryu-ready').hide();
     $('.ryu-throwing').show();
     $('.hadouken').finish().show()
@@ -31,6 +31,7 @@ $(document).ready(function() {
   });
   $(this).keydown(function(event) {
   	//event.stopPropagation();
+  	//if (e.keyCode == 88)
     if ( event.which == 88 ) {
 	    if ( $('.ryu-cool')!==true ){
 	    $('.ryu-still, .ryu-ready,.ryu-throwing').hide();
